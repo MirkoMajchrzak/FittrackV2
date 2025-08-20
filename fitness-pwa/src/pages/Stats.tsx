@@ -49,7 +49,7 @@ return (
 <XAxis dataKey="week" />
 <YAxis />
 <Tooltip /><Legend />
-{Object.values(users).map((email,i)=> (
+{Object.values(users).map((email)=> (
 <Area key={email} type="monotone" dataKey={email} stackId="1" />
 ))}
 </AreaChart>
@@ -67,7 +67,7 @@ return (
 <XAxis dataKey="week" />
 <YAxis />
 <Tooltip /><Legend />
-{Object.values(users).map((email,i)=> (
+{Object.values(users).map((email)=> (
 <Area key={email} type="monotone" dataKey={email} stackId="1" />
 ))}
 </AreaChart>
