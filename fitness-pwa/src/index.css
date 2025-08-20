@@ -2,7 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Optional: Wenn du die Hilfsklasse nutzen willst */
+
 .gradient-bg {
   background-image: linear-gradient(to bottom right, theme('colors.brandStart'), theme('colors.brandEnd'));
+}
+/* Login-Gradient Blau → Lila mit softem Glow */
+.login-gradient {
+  background:
+    radial-gradient(800px 400px at 15% 10%, rgba(255,255,255,0.10), transparent 60%),
+    radial-gradient(700px 350px at 85% 90%, rgba(0,0,0,0.12), transparent 60%),
+    linear-gradient(135deg, #2D87F3 0%, #6A5CF6 45%, #8A3FFC 100%);
+  /* #2D87F3 (blau), #6A5CF6 (indigo), #8A3FFC (lila) – aus dem Icon abgeleitet */
+}
+
+/* dezenter Schein für das Icon */
+.logo-shadow {
+  filter: drop-shadow(0 12px 24px rgba(0,0,0,0.35));
 }
