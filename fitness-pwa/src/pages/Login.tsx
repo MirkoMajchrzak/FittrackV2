@@ -74,7 +74,7 @@ export default function Login(){
         </form>
 
         <div className="mt-4 text-xs text-white/70">
-          Nur für eingeladene Nutzer · PWA tauglich
+          derzeit nur für Äffchen und Bärchen
         </div>
       </div>
 
