@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Wenn du die Hilfsklasse nutzen willst */
+.gradient-bg {
+  background-image: linear-gradient(to bottom right, theme('colors.brandStart'), theme('colors.brandEnd'));
+}
