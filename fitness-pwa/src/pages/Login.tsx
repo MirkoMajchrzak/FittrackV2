@@ -23,7 +23,7 @@ export default function Login(){
         <img
           src="/abe_bear_icon.png"
           alt="App Icon"
-          className="w-28 h-28 rounded-2xl logo-shadow ring-1 ring-white/40 mb-5"
+          className="w-28 h-28 rounded-3xl logo-shadow ring-1 ring-white/40 mb-5"
         />
         <h1 className="text-4xl font-extrabold tracking-tight drop-shadow-sm">
           FitTrack
